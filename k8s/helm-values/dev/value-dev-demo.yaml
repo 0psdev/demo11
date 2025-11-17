@@ -4,7 +4,7 @@ namespace: dev
 replicaCount: 1
 
 image:
-  repository: ops2dev/demo11:1.0
+  repository: ops2dev/demo11
   tag: 1.0.0
 
 containerPort: 80
