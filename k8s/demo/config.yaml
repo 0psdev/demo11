@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-config
+data:
+  envVarName: {{ .Values.envVarName | quote }}
+  state: {{ .Values.state | quote }}
+  color: {{ .Values.color | quote }}
+
