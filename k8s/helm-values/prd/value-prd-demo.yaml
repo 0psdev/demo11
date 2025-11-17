@@ -3,8 +3,8 @@ name: demo-prd
 replicaCount: 1
 
 image:
+  registry: docker.io
   repository: ops2dev/demo11
-
   tag: "1.0"
 
 containerPort: 80
