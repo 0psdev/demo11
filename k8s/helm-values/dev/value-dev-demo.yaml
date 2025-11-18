@@ -16,3 +16,6 @@ color: blue
 service:
   port: 80
   nodePort: 30080
+
+imagePullSecrets:
+  - dockerhub-secret
